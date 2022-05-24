@@ -2257,3 +2257,87 @@
 {"level":"error","time":"2022-03-25T13:56:38+05:30","message":"cannot receiverpc error: code = Unavailable desc = error reading from server: EOF"}
 {"level":"info","time":"2022-03-25T13:56:38+05:30","message":"ProcessPrerequisite methods starts"}
 {"level":"info","time":"2022-03-25T13:56:38+05:30","message":"workloadid:2, instanceid:107, instancegroupid:347"}
+{"level":"info","fileLogging":true,"jsonLogOutput":false,"logDirectory":"log","fileName":"service.log","maxSizeMB":10,"maxBackups":5,"maxAgeInDays":5,"time":"2022-05-23T12:13:04+05:30","message":"logging configured"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"KAFKA_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"MYSQL_ENABLED env variable isn't supplied, default value is false"}
+{"level":"debug","time":"2022-05-23T12:13:04+05:30","message":"Loading default statsd configuration..."}
+{"level":"debug","filter":["no-spire","no-tags"],"time":"2022-05-23T12:13:04+05:30"}
+{"level":"debug","http-servers":["feeder"],"time":"2022-05-23T12:13:04+05:30"}
+{"level":"debug","id":"feeder","address":"0.0.0.0:6060","enable-ingestion":true,"time":"2022-05-23T12:13:04+05:30"}
+{"level":"debug","id":"no-spire","match-metrics":["!spire_*"],"exclude-metrics":[],"drop-tags":[],"drop-metric":true,"drop-host":false,"time":"2022-05-23T12:13:04+05:30"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"SPIRE_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"HUBBLE_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"KUBEARMOR_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"CDP_AGENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"SUMMARIZER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"ANOMALY_DETECTION_AGENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"GRPC_CLIENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"PPROF_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"GRPC_SERVER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"GRPC_TLS_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"VAE_GRPC_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"SPLUNK_FEEDER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"SPLUNK_PREDEFINED_FILTERS env variable isn't supplied, default value is true"}
+{"level":"warn","time":"2022-05-23T12:13:04+05:30","message":"ELASTICSEARCH_FEEDER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":"BUILD-INFO: commit:, branch: , date: , version: "}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":"CILIUM:false, KUBEARMOR:false, VAE:false, CDP:false, KAFKA:false, MYSQL:false, PPROF:false, SPIRE:false,GRPC_CLIENT:false,GRPC_SERVER:false, VAE1:false,VAEGRPC:false,VMAGENT:true"}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":"dialing to vae-relay address localhost:50006"}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:13:05+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:13:06+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:13:06+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:13:07+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:13:07+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","fileLogging":true,"jsonLogOutput":false,"logDirectory":"log","fileName":"service.log","maxSizeMB":10,"maxBackups":5,"maxAgeInDays":5,"time":"2022-05-23T12:15:19+05:30","message":"logging configured"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"KAFKA_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"MYSQL_ENABLED env variable isn't supplied, default value is false"}
+{"level":"debug","time":"2022-05-23T12:15:19+05:30","message":"Loading default statsd configuration..."}
+{"level":"debug","filter":["no-spire","no-tags"],"time":"2022-05-23T12:15:19+05:30"}
+{"level":"debug","http-servers":["feeder"],"time":"2022-05-23T12:15:19+05:30"}
+{"level":"debug","id":"feeder","address":"0.0.0.0:6060","enable-ingestion":true,"time":"2022-05-23T12:15:19+05:30"}
+{"level":"debug","id":"no-spire","match-metrics":["!spire_*"],"exclude-metrics":[],"drop-tags":[],"drop-metric":true,"drop-host":false,"time":"2022-05-23T12:15:19+05:30"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"SPIRE_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"HUBBLE_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"KUBEARMOR_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"CDP_AGENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"SUMMARIZER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"ANOMALY_DETECTION_AGENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"GRPC_CLIENT_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"PPROF_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"GRPC_SERVER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"GRPC_TLS_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"VAE_GRPC_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"SPLUNK_FEEDER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"SPLUNK_PREDEFINED_FILTERS env variable isn't supplied, default value is true"}
+{"level":"warn","time":"2022-05-23T12:15:19+05:30","message":"ELASTICSEARCH_FEEDER_ENABLED env variable isn't supplied, default value is false"}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":"BUILD-INFO: commit:, branch: , date: , version: "}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":"CILIUM:false, KUBEARMOR:false, VAE:false, CDP:false, KAFKA:false, MYSQL:false, PPROF:false, SPIRE:false,GRPC_CLIENT:false,GRPC_SERVER:false, VAE1:false,VAEGRPC:false,VMAGENT:true"}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":"dialing to vae-relay address localhost:50006"}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:19+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:20+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:20+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:21+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:21+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:22+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:22+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:23+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:23+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:24+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:24+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:25+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:25+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:26+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:26+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:27+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:27+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:28+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:28+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:29+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:29+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
+{"level":"info","time":"2022-05-23T12:15:30+05:30","message":" CheckServerUptime method starts "}
+{"level":"info","time":"2022-05-23T12:15:30+05:30","message":"Grpc server status :<nil> rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:50006: connect: connection refused\""}
